@@ -497,47 +497,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 0.5,-6.5
       parent: 201
-- proto: CannonBall
-  entities:
-  - uid: 15
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.8835673,-2.403088
-      parent: 201
-  - uid: 19
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.6648173,-2.262463
-      parent: 201
-  - uid: 72
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.6023173,-2.512463
-      parent: 201
-- proto: CannonBallGlassshot
-  entities:
-  - uid: 17
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.3054423,-2.449963
-      parent: 201
-  - uid: 20
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 1.4616923,-2.137463
-      parent: 201
-- proto: CannonBallGrapeshot
-  entities:
-  - uid: 76
-    components:
-    - type: Transform
-      pos: 1.5241923,-2.309338
-      parent: 201
 - proto: CarpetBlack
   entities:
   - uid: 230
@@ -675,20 +634,20 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 1.5,1.5
       parent: 201
+- proto: ComputerTabletopRadar
+  entities:
+  - uid: 15
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,2.5
+      parent: 201
 - proto: ComputerTabletopShuttleAntag
   entities:
   - uid: 220
     components:
     - type: Transform
       pos: 0.5,3.5
-      parent: 201
-- proto: ComputerTabletopStationRecords
-  entities:
-  - uid: 221
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,2.5
       parent: 201
 - proto: DefibrillatorCabinetFilled
   entities:
@@ -1245,10 +1204,6 @@ entities:
     - type: Transform
       pos: 0.5,-6.5
       parent: 201
-    - type: FuelGenerator
-      on: False
-    - type: Physics
-      bodyType: Static
 - proto: PowerCellRecharger
   entities:
   - uid: 197
@@ -1672,7 +1627,7 @@ entities:
     - type: Transform
       pos: 0.5,-3.5
       parent: 201
-- proto: WarpPointShip
+- proto: WarpPoint
   entities:
   - uid: 199
     components:
