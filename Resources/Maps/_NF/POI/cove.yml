@@ -4975,13 +4975,6 @@ entities:
     - type: Transform
       pos: -8.5,1.5
       parent: 1
-- proto: ComputerTabletopStationRecords
-  entities:
-  - uid: 2083
-    components:
-    - type: Transform
-      pos: -5.5,10.5
-      parent: 1
 - proto: ComputerTabletopSurveillanceCameraMonitor
   entities:
   - uid: 1082

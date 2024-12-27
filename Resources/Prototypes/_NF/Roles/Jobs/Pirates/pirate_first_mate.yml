@@ -5,11 +5,10 @@
   playTimeTracker: JobPirateFirstMate
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 129600 # 36 hours
+      time: 43200 # 12 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 10800 # 3 hours
-  whitelisted: true
+      time: 3600 # 1 hours Radiant_Sector
   startingGear: PirateFirstMateNFGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

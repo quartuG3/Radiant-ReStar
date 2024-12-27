@@ -5,10 +5,13 @@
   playTimeTracker: JobPirateCaptain
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 172800 # 48 hours
+      time: 43200 # 12 hours Radiant_Sector
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Antag
+      time: 21600 # 6 hours Radiant_Sector
   whitelisted: true
   startingGear: PirateCaptainNFGear
   alwaysUseSpawner: true
