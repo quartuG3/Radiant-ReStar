@@ -9,6 +9,7 @@
       - id: ClothingNeckCloakPirateCap
       - id: Cutlass # Frontier EnergyCutlass<Cutlass
       - id: ClothingHeadsetAltFreelancer # Frontier
+      - id: WeaponEnergyShotgun # Radiant_Sector
 
 - type: entity
   id: CratePirateChest
@@ -18,9 +19,8 @@
   components:
   - type: StorageFill
     contents:
-      - id: WeaponLauncherPirateCannon
-        amount: 2
       - id: ClothingOuterCoatGentle
+      - id: WeaponShotgunKammerer # Radiant_Sector
       - id: Cutlass
         amount: 2
       - id: CannonBall

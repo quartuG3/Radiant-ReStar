@@ -908,8 +908,6 @@ entities:
     - type: Transform
       pos: 1.5,12.5
       parent: 1
-    - type: Physics
-      bodyType: Static
 - proto: BenchSofaMiddle
   entities:
   - uid: 26
@@ -917,8 +915,6 @@ entities:
     - type: Transform
       pos: 0.5,12.5
       parent: 1
-    - type: Physics
-      bodyType: Static
 - proto: BenchSofaRight
   entities:
   - uid: 27
@@ -926,8 +922,6 @@ entities:
     - type: Transform
       pos: -0.5,12.5
       parent: 1
-    - type: Physics
-      bodyType: Static
 - proto: ButtonFrameCaution
   entities:
   - uid: 2
@@ -1599,23 +1593,6 @@ entities:
     - type: Transform
       pos: -0.5,8.5
       parent: 1
-- proto: CannonBall
-  entities:
-  - uid: 159
-    components:
-    - type: Transform
-      pos: -1.7174473,-4.5506954
-      parent: 1
-  - uid: 160
-    components:
-    - type: Transform
-      pos: -1.5265388,-4.3122215
-      parent: 1
-  - uid: 161
-    components:
-    - type: Transform
-      pos: -1.383357,-4.5506954
-      parent: 1
 - proto: CarpetBlack
   entities:
   - uid: 162
@@ -1920,6 +1897,17 @@ entities:
     - type: Transform
       pos: -0.3953849,12.460637
       parent: 1
+- proto: ComputerCrewMonitoring
+  entities:
+  - uid: 159
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,-6.5
+      parent: 1
+    - type: DisableToolUse
+      screwing: True
+      anchoring: True
 - proto: ComputerIFF
   entities:
   - uid: 216
@@ -1934,14 +1922,6 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-5.5
-      parent: 1
-- proto: ComputerStationRecords
-  entities:
-  - uid: 219
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 1.5,-6.5
       parent: 1
 - proto: CrateEmptySpawner
   entities:
@@ -2343,10 +2323,6 @@ entities:
     - type: Transform
       pos: -0.5,8.5
       parent: 1
-    - type: FuelGenerator
-      on: False
-    - type: Physics
-      bodyType: Static
 - proto: PosterContrabandDonk
   entities:
   - uid: 284
@@ -3458,7 +3434,7 @@ entities:
     - type: Transform
       pos: 0.5,9.5
       parent: 1
-- proto: WarpPointShip
+- proto: WarpPoint
   entities:
   - uid: 470
     components:
