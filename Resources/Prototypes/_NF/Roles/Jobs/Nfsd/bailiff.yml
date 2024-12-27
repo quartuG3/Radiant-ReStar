@@ -5,7 +5,7 @@
   playTimeTracker: JobWarden
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 108000 # 30 hours
+      time: 86400 # 24 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
       department: Security
       time: 64800 # 18 hours
@@ -15,13 +15,10 @@
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
-      time: 720000 # 200 hours
+      time: 150 # 200 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
       department: Security
       time: 43200 # 12 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 21600 # 6 hours
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff
