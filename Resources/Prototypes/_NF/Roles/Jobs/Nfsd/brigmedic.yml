@@ -5,14 +5,8 @@
   playTimeTracker: JobBrigmedic
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200 # 12 hours
+      time: 14400 # 4 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
-      department: Security
-      time: 21600 # 6 hours
-  alternateRequirementSets:
-    longerPlaytimeLessSec:
-    - !type:OverallPlaytimeRequirement
-      time: 360000 # 100 hours
   startingGear: BrigmedicGear
   icon: JobIconBrigmedicNF
   supervisors: job-supervisors-bailiff
