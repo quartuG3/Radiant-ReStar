@@ -5,10 +5,7 @@
   playTimeTracker: JobPirate
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 86400 # 24 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 10800 # 3 hrs
+      time: 21600 # 6 hours Radiant_Sector
   startingGear: PirateNFGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
