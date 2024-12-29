@@ -5059,13 +5059,6 @@ entities:
           showEnts: False
           occludes: True
           ent: null
-- proto: CrateFunHoverbikeNFPirate
-  entities:
-  - uid: 684
-    components:
-    - type: Transform
-      pos: 0.5,11.5
-      parent: 1
 - proto: CrateFunParty
   entities:
   - uid: 125
@@ -5119,13 +5112,6 @@ entities:
     components:
     - type: Transform
       pos: -8.5,7.5
-      parent: 1
-- proto: CratePirateChestCaptain
-  entities:
-  - uid: 2020
-    components:
-    - type: Transform
-      pos: -8.5,8.5
       parent: 1
 - proto: CrateStoneGrave
   entities:
