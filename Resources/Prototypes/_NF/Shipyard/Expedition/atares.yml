@@ -1,0 +1,34 @@
+- type: vessel
+  id: Atares
+  parent: BaseVessel
+  name: HOM Атарес-N21
+  description: Экспедиционный корабль, который предназначен для дальних путешествий по просторам космоса, на нём есть всё необходимое: небольшие спальни для отдыха, кухня, мед. отвесе и мостик с отличным обзором на звезды
+  price: 72150
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/atares.yml
+  guidebookPage: Null
+  class:
+  - Expedition
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Atares
+  mapName: 'Атарес-N21'
+  mapPath: /Maps/_NF/Shuttles/Expedition/atares.yml
+  minPlayers: 0
+  stations: 
+    Atares:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Атарес-N21 {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
