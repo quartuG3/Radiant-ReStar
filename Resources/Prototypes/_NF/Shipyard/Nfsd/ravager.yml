@@ -1,0 +1,32 @@
+- type: vessel
+  id: Ravager
+  parent: BaseVessel
+  name: NSF Реведжер
+  description: Крейсер-эсминец типа «Реведжер» предназначен для оперативных перехватов судов и длительного патрулирования дальнего космоса.
+  price: 95500
+  category: Large
+  group: Security
+  access: Sergeant
+  shuttlePath: /Maps/_NF/Shuttles/Nfsd/ravager.yml
+  class:
+  - Pursuit
+  - Capital
+  engine:
+  - AME
+
+- type: gameMap
+  id: Ravager
+  mapName: 'NSF Реведжер'
+  mapPath: /Maps/_NF/Shuttles/Nfsd/ravager.yml
+  minPlayers: 0
+  stations:
+    Ravager:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Реведжер {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

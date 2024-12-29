@@ -1,0 +1,34 @@
+- type: vessel
+  id: Atares
+  parent: BaseVessel
+  name: HOM Атарес - N21
+  description: Civilian conversion of an old military light frigate from the early days of humanity's expansion to the stars, predating FTL technology. Manufactured by Langstad-Voigt Heavy Industries.
+  price: 72150 # ~42645$ on mapinit + ~12800$ from 30% markup
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/atares.yml
+  guidebookPage: Null
+  class:
+  - Expedition
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Atares
+  mapName: 'Атарес - N21'
+  mapPath: /Maps/_NF/Shuttles/Expedition/atares.yml
+  minPlayers: 0
+  stations: 
+    Atares:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Атарес - N21 {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
