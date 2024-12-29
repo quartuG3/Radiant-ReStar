@@ -41,9 +41,9 @@
           stationDescription: 'frontier-lobby-pirate-description'
         - type: StationJobs
           availableJobs:
-            PirateCaptain: [ 1, 1 ]
-            PirateFirstMate: [ 1, 1 ]
-            Pirate: [ 2, 2 ]
+            PirateCaptain: [ 0, 0 ]
+            PirateFirstMate: [ 0, 0 ]
+            Pirate: [ 0, 0 ]
         - type: StationDeadDropReporting
           messageSet: Pirate
         - type: StationDeadDropHintExempt
