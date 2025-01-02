@@ -10,6 +10,7 @@
 #
 - type: vessel
   id: Frida
+  parent: BaseVessel
   name: NT Frida
   description: This is the Frida, a large expedition ship commissioned by Nanotrasen as part of a series of variants based on the same command module.
   price: 189000 # ~114000$ on mapinit +30% markup

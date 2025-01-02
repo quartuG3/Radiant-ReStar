@@ -1,5 +1,6 @@
 - type: vessel
   id: CourserX
+  parent: BaseVessel
   name: NT Courser-X
   description: A medium sized multi-role long haul conversion of the long time popular Courser model.
   price: 68650
