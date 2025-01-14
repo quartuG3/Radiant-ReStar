@@ -10,6 +10,7 @@
 
 - type: vessel
   id: stellarhaven
+  parent: BaseVessel
   name: HOM Звёздная Гавань
   description: Ночной клуб, в котором есть все для хорошего время провождения - кухня, бар, вип-зона и дормы
   price: 59000
