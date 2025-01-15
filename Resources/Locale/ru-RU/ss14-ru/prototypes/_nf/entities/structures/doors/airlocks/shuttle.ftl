@@ -1,0 +1,15 @@
+ent-AirlockShuttleNfsd = стыковочный шлюз
+    .desc = Необходим для соединения двух космических кораблей вместе.
+    .suffix = ДШНФ, Стыковочный
+ent-AirlockShuttleNfsdLocked = { ent-AirlockShuttleNfsd }
+    .suffix = ДШНФ, Стыковочный, Закрыт
+	.desc = { ent-AirlockShuttleNfsd.desc }
+ent-AirlockGlassShuttleNfsd = { ent-AirlockShuttleNfsd }
+    .suffix = ДШНФ, Стеклянный, Стыковочный
+	.desc = { ent-AirlockShuttleNfsd.desc }
+ent-AirlockGlassShuttleNfsdLocked = { ent-AirlockShuttleNfsd }
+    .suffix = ДШНФ, Стеклянный, Стыковочный, Закрыт
+	.desc = { ent-AirlockShuttleNfsd.desc }
+ent-AirlockShuttleAssemblyNfsd = каркас стыковочного шлюза
+	.desc = Незавершённая конструкция, необходимая для соединения двух космических кораблей вместе.
+    .suffix = ДШНФ, Стыковочный

@@ -1,4 +1,4 @@
-ent-BedsheetNfsd = одеяло ДСБФ
+ent-BedsheetNfsd = одеяло ДШ
     .desc = { ent-BedsheetBase.desc }
 ent-BedsheetNfsdBrigmedic = одеяло коронера
     .desc = { ent-BedsheetBase.desc }
