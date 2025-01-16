@@ -1,0 +1,31 @@
+- type: vessel
+  id: Infiltrator_old
+  parent: BaseVesselAntag
+  name: Ламндер
+  description: Устаревший корабль ядерных оперативников
+  price: 100000
+  category: Medium
+  group: Syndicate
+  shuttlePath: /Maps/_NF/Shuttles/Syndicate/infiltrator_old.yml
+  guidebookPage: Null
+  class:
+  - Syndicate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Infiltrator_old
+  mapName: 'Ламндер'
+  mapPath: /Maps/_NF/Shuttles/Syndicate/infiltrator_old.yml
+  minPlayers: 0
+  stations:
+    Infiltrator_old:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Ламндер {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}
