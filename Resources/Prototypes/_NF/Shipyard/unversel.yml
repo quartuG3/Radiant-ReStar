@@ -10,6 +10,7 @@
 #
 - type: vessel
   id: unversel
+  parent: BaseVessel
   name: HOM Анвёрсел
   description: Универсальный шаттл, оборудованный под различные цели с баром, кухней, гидропоникой, медбеем и производственным цехом. 
   price: 78000 #Appraises at 53341. Markup is 5% - TODO: fix this value, getting tests to pass - Whatstone

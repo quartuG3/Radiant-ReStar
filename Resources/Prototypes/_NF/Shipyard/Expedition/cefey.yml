@@ -1,0 +1,44 @@
+# Author Info
+# Author: Homka
+# Discord: 
+
+# Maintainer Info
+# GitHub: 
+# Discord: 
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Cefey
+  parent: BaseVessel
+  name: HOM Цефей
+  description: Экспедиционный военный корабль повидавший не одну команду
+  price: 83700
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/cefey.yml
+  guidebookPage: Null
+  class:
+  - Expedition
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Cefey
+  mapName: 'Цефей'
+  mapPath: /Maps/_NF/Shuttles/Expedition/cefey.yml
+  minPlayers: 0
+  stations: 
+    Cefey:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Цефей {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

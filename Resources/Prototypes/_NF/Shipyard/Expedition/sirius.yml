@@ -1,0 +1,44 @@
+# Author Info
+# Author: Homka
+# Discord: 
+
+# Maintainer Info
+# GitHub: 
+# Discord: 
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Sirius
+  parent: BaseVessel
+  name: HOM Сириус
+  description: Экспедиционный корабль для дальних путешествий по просторам космоса
+  price: 60725
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/sirius.yml
+  guidebookPage: Null
+  class:
+  - Expedition
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Sirius
+  mapName: 'Сириус'
+  mapPath: /Maps/_NF/Shuttles/Expedition/sirius.yml
+  minPlayers: 0
+  stations: 
+    Sirius:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Сириус {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

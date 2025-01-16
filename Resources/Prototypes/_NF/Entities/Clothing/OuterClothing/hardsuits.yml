@@ -312,7 +312,7 @@
     walkModifier: 0.85
     sprintModifier: 0.75
 
-# SCAF hardsuit
+# SCAF hardsuit #Radiant_sector
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitScaf
@@ -321,8 +321,14 @@
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    layers: #Radiant_sector
+    - state: icon #Radiant_sector
+    - state: icon-flash #Radiant_sector
+      visible: false #Radiant_sector
+      map: [ "light" ] #Radiant_sector
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    equippedPrefix: off #Radiant_sector
   - type: Armor # Kept original scaf stats
     modifiers:
       coefficients:
@@ -344,6 +350,44 @@
     clothingPrototype: ClothingHeadHelmetHardsuitScaf
   - type: PirateBountyItem
     id: ClothingOuterHardsuitScaf
+  - type: ToggleableLightVisuals #Radiant_sector
+  - type: PointLight
+    enabled: false
+    radius: 7
+    energy: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    netsync: false
+  - type: Appearance
+  - type: HandheldLight
+    addPrefix: true
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        minValue: 0.1
+        maxValue: 2.0
+        isLooped: true
+  - type: Battery
+    maxCharge: 600 #lights drain 3/s but recharge of 2 makes this 1/s. Therefore 600 is 10 minutes of light.
+    startingCharge: 600
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2 #recharge of 2 makes total drain 1w / s so max charge is 1:1 with time. Time to fully charge should be 5 minutes. Having recharge gives light an extended flicker period which gives you some warning to return to light area.
+
+#Radiant_sector_end
 
 # Tactical Maid Hardsuit
 
