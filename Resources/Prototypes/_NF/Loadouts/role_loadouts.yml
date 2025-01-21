@@ -25,6 +25,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 # Pilot
 - type: roleLoadout
@@ -53,6 +54,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 # Mercenary
 - type: roleLoadout
@@ -81,6 +83,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 # Frontier
 - type: roleLoadout
@@ -105,11 +108,11 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobNFJanitor
   groups:
-  - GroupTankHarness
   - JanitorNFHead
   - JanitorNFJumpsuit
   - JanitorNFGloves
@@ -124,6 +127,7 @@
   - ContractorImplanter
   - ContractorFun
   - ContractorTrinkets
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobMailCarrier
@@ -146,6 +150,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobStationTrafficController
@@ -170,6 +175,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobStationRepresentative
@@ -195,6 +201,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobSecurityGuard
@@ -219,6 +226,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific
 
 # Nfsd
 - type: roleLoadout
@@ -245,6 +253,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobDeputy
@@ -270,6 +279,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobBrigmedic
@@ -295,6 +305,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobNFDetective
@@ -320,6 +331,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobPublicAffairsLiaison
@@ -329,7 +341,6 @@
   - PalJumpsuit
   - PalGloves
   - NfsdBackpackBrown
-  - GroupTankHarness # No outer clothing, this left for Vox
   - NfsdShoesBrown
   - ContractorFace
   - NfsdGlasses
@@ -345,6 +356,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NFSpeciesSpecific # Explicitly civilian variant
 
 # - type: roleLoadout # Fix when this is actully used
   # id: JobPrisonGuard
@@ -367,6 +379,7 @@
   # - ContractorEncryptionKey
   # - ContractorFun
   # - ContractorTrinkets
+  # - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobBailiff
@@ -392,6 +405,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobSeniorOfficer
@@ -417,6 +431,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 - type: roleLoadout
   id: JobSheriff
@@ -441,6 +456,7 @@
   - ContractorUnderwearBottom
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
+  - NfsdSpeciesSpecific
 
 # Pirate
 
@@ -452,7 +468,6 @@
   - PirateJumpsuit
 #  - PirateGloves
   - ContractorBackpack
-  - GroupTankHarness # No outer clothing, this left for vox
   - PirateShoes
   - PirateFace
   - ContractorBoxSurvival
@@ -460,6 +475,7 @@
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
   - PiratePDA
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobPirateFirstMate
@@ -477,6 +493,7 @@
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
   - PirateFirstMatePDA
+  - NFSpeciesSpecific
 
 - type: roleLoadout
   id: JobPirateCaptain
@@ -487,7 +504,6 @@
 #  - PirateGloves
   - ContractorBackpack
   - PirateCaptainOuterClothing
-#  - PirateOuterClothing
   - PirateShoes
   - PirateFace
   - ContractorBoxSurvival
@@ -495,6 +511,7 @@
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
   - PirateCaptainPDA
+  - NFSpeciesSpecific
 
 # Prisoner
 
@@ -506,7 +523,6 @@
   - PrisonerJumpsuit
 #  - PrisonerGloves
 #  - PrisonerBackpack
-  - GroupTankHarness # No outer clothing, this left for Vox.
 #  - PrisonerShoes
   - PrisonerFace
   - PrisonerSurvival
@@ -514,3 +530,4 @@
   - ContractorUnderwearSocks
   - ContractorUnderwearTop
   - PrisonerPDA
+  - NFSpeciesSpecific

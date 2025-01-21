@@ -34,7 +34,7 @@
 # Silicons
 - type: roleLoadout
   id: JobStationAi
-  nameDataset: names_ai
+  nameDataset: NamesAI
 
 # Civilian
 - type: roleLoadout
@@ -461,7 +461,6 @@
   - BasicUnderwearBottom
   - BasicUnderwearTop
   - BasicUnderwearSocks
-  - GroupTankHarness
   - DetectiveHead
   - DetectiveNeck
   - DetectiveJumpsuit
