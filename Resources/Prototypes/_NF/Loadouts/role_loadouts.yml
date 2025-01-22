@@ -228,6 +228,30 @@
   - ContractorUnderwearTop
   - NFSpeciesSpecific
 
+- type: roleLoadout
+  id: JobDirectorOfCare
+  groups:
+  - DocHead
+  - DocNeck
+  - DocJumpsuit
+  - DocGloves
+  - DocBackpack
+  - ContractorOuterClothing
+  - DocShoes
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - DocEars
+  - ContractorBoxSurvival
+  - DocPDA
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorFun
+  - ContractorTrinkets
+  - ContractorBureaucracy
+  - NFSpeciesSpecific
+
 # Nfsd
 - type: roleLoadout
   id: JobCadet
