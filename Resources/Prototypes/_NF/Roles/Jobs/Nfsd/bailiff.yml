@@ -29,6 +29,8 @@
   - Armory
   - Sergeant
   - Bailiff
+  - Medical
+  - Chemistry
   accessGroups:
   - GeneralNfsdAccess
   special:
