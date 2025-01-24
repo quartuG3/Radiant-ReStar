@@ -1,0 +1,22 @@
+#radiant_sector
+- type: marking
+  id: FoxTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Human, Felinid, Vulpkanin]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _radiant/Mobs/Customization/foxtail.rsi
+    state: tail_fox_main
+  - sprite: _radiant/Mobs/Customization/foxtail.rsi
+    state: tail_fox_second
+  - sprite: _radiant/Mobs/Customization/foxtail.rsi
+    state: tail_fox_third

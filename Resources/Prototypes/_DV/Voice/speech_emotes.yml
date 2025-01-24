@@ -184,6 +184,7 @@
     - howling
     - howled
     - воет
+    - воет.
     - ау
     - ауу
     - аууу
@@ -195,10 +196,14 @@
     - ауу!
     - аууу!
     - ауууу!
+    - ау.
+    - ауу.
+    - аууу.
+    - ауууу.
 
-- type: emote
+- type: emote #radiant_sector
   id: Awoo
-  name: Увууу
+  name: Урчать
   category: Vocal
   icon: Interface/Actions/scream.png
   available: false
@@ -208,14 +213,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["Аууууу."]
+  chatMessages: ["Урчит."]
   chatTriggers:
-    - awoo
-    - awoos
-    - awooing
-    - awooed
-    - воет.
-    - ау.
-    - ауу.
-    - аууу.
-    - ауууу.
+    - Pur
+    - Purr
+    - Мур
+    - Мурчит
+    - Урчит
+    - Руру
+    - Руруру
+    - Руруруру
+    - Уруру

@@ -115,7 +115,7 @@
     Howl:
       collection: VulpkaninHowls
     Awoo:
-      collection: VulpkaninHowls
+      collection: VulpkaninPurr
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
@@ -159,7 +159,7 @@
     Howl:
       collection: VulpkaninHowls
     Awoo:
-      collection: VulpkaninHowls
+      collection: VulpkaninPurr
     Gasp:
       collection: FemaleGasp
     DefaultDeathgasp:

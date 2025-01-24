@@ -2,7 +2,7 @@
   id: CatEars
   bodyPart: Special
   markingCategory: Special
-  speciesRestriction: [] # Frontier: Human<empty list
+  speciesRestriction: [ Human ] # Frontier: Human<empty list #radiant_sector
   coloring:
     default:
       type:
@@ -25,7 +25,7 @@
   id: CatTail
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: []
+  speciesRestriction: [ Human ] #radiant_sector
   coloring:
     default:
       type:
