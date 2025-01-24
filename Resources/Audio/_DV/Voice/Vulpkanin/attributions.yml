@@ -47,3 +47,8 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "Original sound taken from Goonstation. Renamed to howl.ogg"
   source: "https://github.com/goonstation/goonstation/blob/master/sound/voice/animal/werewolf_howl.ogg"
+ 
+ - files: ["purr.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Original sound taken from SS220"
+  source: "https://github.com/ss220club/Paradise-SS220/pull/1473"
