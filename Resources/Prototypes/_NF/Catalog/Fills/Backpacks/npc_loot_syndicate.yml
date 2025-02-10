@@ -417,7 +417,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: WeaponSubMachineGunAtreidesExpedition
+      - id: WeaponSubMachineGunC20r
       - id: MagazinePistolSubMachineGun
       - id: MagazinePistolSubMachineGun
       - id: SpaceCash1000

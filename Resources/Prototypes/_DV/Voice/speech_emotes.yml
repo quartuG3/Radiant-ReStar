@@ -213,7 +213,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["Урчит."]
+  chatMessages: ["урчит."]
   chatTriggers:
     - Pur
     - Purr
