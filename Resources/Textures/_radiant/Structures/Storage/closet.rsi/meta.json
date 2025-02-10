@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "copyright": "Made by Homka for Radiant sector - Frontier",
+  "license": "CC-BY-SA-3.0",
+  "states": [
+    {
+      "name": "cap"
+    },
+    {
+      "name": "cap_door"
+    },
+    {
+      "name": "cap_open"
+    },
+    {
+      "name": "generic"
+    },
+    {
+      "name": "science_door"
+    },
+    {
+      "name": "science_open"
+    },
+    {
+      "name": "science"
+    },
+    {
+      "name": "generic_door"
+    },
+    {
+      "name": "generic_open"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "sec"
+    },
+    {
+      "name": "sec_door"
+    },
+    {
+      "name": "sec_open"
+    },
+    {
+      "name": "unlocked"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "wooden_cabinet_icon"
+    },
+    {
+      "name": "sparking"
+    },
+    {
+      "name": "door-decal-engi-01"
+    },
+    {
+      "name": "door-decal-null"
+    }
+  ]
+}

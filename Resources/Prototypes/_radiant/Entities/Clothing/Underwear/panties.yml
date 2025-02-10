@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesAcorp
+  name: трусики акорп
+  description: Стандартное нижнее бельё чёрно-белого цвета.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/bottom/acorpw.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesAcorpSecurity
+  name: трусики акорп секьюрити
+  description: Стандартное нижнее бельё для сотрудниц акорп секьюрити.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/bottom/secacorpw.rsi

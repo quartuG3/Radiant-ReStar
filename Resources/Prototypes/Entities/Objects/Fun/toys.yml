@@ -208,6 +208,37 @@
     soundHit:
       path: /Audio/Items/Toys/mousesqueek.ogg
 
+
+- type: entity #radiant_sector start
+  parent: BasePlushie
+  id: PlushieHomka
+  name: hampter plushie
+  description: A cute stuffed toy that resembles a hamster. Its face looks squished.
+  components:
+  - type: Sprite
+    state: plushie_homka
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: Food
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/Items/Toys/mousesqueek.ogg
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      path: /Audio/Items/Toys/mousesqueek.ogg #radiant_sector end
+
+
 - type: entity
   parent: PlushieBee
   id: PlushieRGBee

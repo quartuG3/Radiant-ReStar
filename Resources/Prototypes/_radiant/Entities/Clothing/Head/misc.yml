@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatDemonic
+  name: bunny ears
+  description: Cute bunny ears.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/demonichorns.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/demonichorns.rsi

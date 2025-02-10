@@ -1,0 +1,92 @@
+- type: entity
+  parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityCommandContraband<BaseC2ContrabandUnredeemable
+  id: ClothingOuterCoatAcorp
+  name: head of security's armored trenchcoat
+  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/acorp_outer.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/acorp_outer.rsi
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatLabAcorp
+  name: lab coat
+  description: A suit that protects against minor chemical spills.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/Coats/labcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabAcorp]
+  id: ClothingOuterCoatLabAcorpOpened
+  name: lab coat
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatRndAcorp
+  name: scientist lab coat
+  description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/Coats/labcoat_rnd.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/Coats/labcoat_rnd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRndAcorp]
+  id: ClothingOuterCoatRndAcorpOpened
+  name: scientist lab coat
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatGreyAcorp
+  name: expensive coat
+  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/greycoat.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/greycoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatRedAcorp
+  name: expensive coat
+  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/redcoat.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/redcoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: ClothingOuterCoatRDAcorp
+  name: scientist lab coat
+  description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/OuterClothing/Coats/rnd.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/OuterClothing/Coats/rnd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRndAcorp]
+  id: ClothingOuterCoatRDAcorpOpened
+  name: scientist lab coat

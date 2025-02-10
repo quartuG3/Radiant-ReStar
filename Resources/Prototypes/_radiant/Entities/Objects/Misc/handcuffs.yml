@@ -1,0 +1,19 @@
+- type: entity
+  parent: Handcuffs
+  id: ClothingOuterShibari
+  name: шибари
+  description: Веревки для исполнения японского искусства ограничения подвижности тела.
+  components:
+  - type: Item
+    size: Normal
+  - type: Handcuff
+    cuffedRSI: _radiant/Clothing/shibari.rsi
+    breakoutTime: 100
+    cuffTime: 10
+    uncuffTime: 10
+    stunBonus: 4
+  - type: StaticPrice # Frontier
+    vendPrice: 1500 # Frontier
+  - type: Sprite
+    sprite: _radiant/Clothing/shibari.rsi
+    state: icon

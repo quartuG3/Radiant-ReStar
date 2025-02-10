@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraAcorp
+  name: бра
+  description: Только наши лифчики Nanotrasen могут легко сниматься и надеваться.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/top/acorp.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBraAcorp2
+  name: бра
+  description: Только наши лифчики Nanotrasen могут легко сниматься и надеваться.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/top/acorp1.rsi

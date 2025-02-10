@@ -1,0 +1,10 @@
+- type: entity
+  parent: NFClothingBeltStorageBase # Frontier: ClothingBeltStorageBase<NFClothingBeltStorageBase
+  id: ClothingBeltSalvageWebbingAcorp
+  name: разгрузка акорп
+  description: Разгрузка для сотрудников акорп.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Belt/salvagewebbing.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Belt/salvagewebbing.rsi

@@ -1,0 +1,155 @@
+- type: entity
+  id: ThrusterZeta
+  parent: [ BaseStructureDisableAnchoring, Thruster ]
+  name: thruster
+  suffix: Zeta
+  placement:
+    mode: AlignTileAny
+  components:
+  - type: Thruster
+    baseThrust: 300
+    thrust: 300
+    damage:
+      types:
+        Heat: 40
+  - type: ApcPowerReceiver
+    powerLoad: 3750
+  - type: Sprite
+    sprite: _radiant/Structures/Machines/Thrusters/zeta.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+      offset: 0.5, 0.5
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+      offset: 0.5, 0.5
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0.5, 2.4
+    drawdepth: Mobs
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+  - type: Machine
+    board: ThrusterSecurityMachineCircuitboard
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,1.5,1.5"
+        density: 200
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: ThrusterBigZeta
+  parent: [ BaseStructureDisableAnchoring, Thruster ]
+  name: thruster
+  suffix: BigZeta
+  placement:
+    mode: AlignTileAny
+  components:
+  - type: Thruster
+    baseThrust: 600
+    thrust: 600
+    damage:
+      types:
+        Heat: 40
+  - type: SpriteFade
+  - type: ApcPowerReceiver
+    powerLoad: 10500
+  - type: Sprite
+    sprite: _radiant/Structures/Machines/Thrusters/bigZeta.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 3
+    drawdepth: Mobs
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 2700
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+  - type: Machine
+    board: ThrusterSecurityMachineCircuitboard
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.5,-1.5,1.5,1.5"
+        density: 1000
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+
+- type: entity
+  id: ThrusterRadiant
+  parent: [ BaseStructureDisableAnchoring, Thruster ]
+  name: thruster
+  suffix: Radiant
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Machines/Thrusters/base.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+      offset: 0, 0
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+      offset: 0, 0
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 0.9
+  - type: Machine
+    board: ThrusterSecurityMachineCircuitboard

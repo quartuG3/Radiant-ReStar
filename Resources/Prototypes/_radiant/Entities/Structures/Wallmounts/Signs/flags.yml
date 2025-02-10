@@ -1,0 +1,9 @@
+- type: entity
+  parent: BaseFlag
+  id: AcorpFlag
+  name: pirate flag
+  description: Raise the jolly roger, scallywags!
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Wallmounts/flags.rsi
+    state: flag

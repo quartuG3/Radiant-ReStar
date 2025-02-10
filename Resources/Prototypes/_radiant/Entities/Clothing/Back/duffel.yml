@@ -1,0 +1,17 @@
+- type: entity
+  parent: [NFClothingDuffel, BaseC2Contraband ] # Frontier: BaseRestrictedContraband<BaseC2Contraband, ClothingBackpackDuffel<NFClothingDuffel
+  id: ClothingBackpackDuffelAcorpSecurity
+  name: вещмешок секьюрити
+  description: Вещмешок, который предназначен для сотрудников акорп секьюрити, больше места - больше огнестрела!
+  components:
+    - type: Sprite
+      sprite: _radiant/Clothing/Back/Duffels/sec.rsi
+
+- type: entity
+  parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffel
+  id: ClothingBackpackDuffelAcorp
+  name: черно-белый вещмешок
+  description: Чёрно-белый вещмешок для сотрудников акорп, вы можете поместить в него фелинида с другим вещмешком!
+  components:
+    - type: Sprite
+      sprite: _radiant/Clothing/Back/Duffels/acorp.rsi

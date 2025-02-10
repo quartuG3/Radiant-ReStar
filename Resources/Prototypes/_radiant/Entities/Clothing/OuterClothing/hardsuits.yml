@@ -1,0 +1,297 @@
+#Security Hardsuit
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # Removed BaseRestrictedContraband<BaseC2ContrabandUnredeemable
+  id: ClothingOuterHardsuitAcorpSecurity
+  name: security hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/sec_rig.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/sec_rig.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpSecurity
+
+#Spationaut Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
+  id: ClothingOuterHardsuitAcorpSalvage
+  name: spationaut hardsuit
+  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/salvage.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/salvage.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.7
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Radiation: 0.3 #salv is supposed to have radiation hazards in the future
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpSalvage
+
+#Research Director's Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
+  id: ClothingOuterHardsuitAcorpRnd
+  name: experimental research hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/rnd.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/rnd.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.3
+        Radiation: 0.1
+        Caustic: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: Item
+    size: Huge
+    shape:
+    - 0,0,4,4 #5X5, can fit in a duffel bag but nothing smaller.
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - HighRiskItem
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpRnd
+  - type: StaticPrice
+    price: 750
+
+#Head of Security's Hardsuit
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # BaseCommandContraband<BaseC2ContrabandUnredeemable
+  id: ClothingOuterHardsuitAvian
+  name: head of security's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/hostile_avian.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/hostile_avian.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.45
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.5
+        Piercing: 0.5
+        Radiation: 0.5
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAvian
+
+#Head of Security's Hardsuit
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable] # BaseCommandContraband<BaseC2ContrabandUnredeemable
+  id: ClothingOuterHardsuitAvianCommander
+  name: head of security's hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/hostile_avian_commander.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/hostile_avian_commander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.45
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.4
+        Radiation: 0.5
+        Caustic: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAvianCommander
+
+#Syndicate Elite Hardsuit
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent
+  id: ClothingOuterHardsuitAcorpHeva
+  name: syndicate elite hardsuit
+  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/heva.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/heva.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    heatingCoefficient: 0.001
+    coolingCoefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: FireProtection
+    reduction: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpHeva
+
+#Salvage Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase # Removed BaseCargoContraband
+  id: ClothingOuterHardsuitAcorpHardEVA
+  name: mining hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/hard_eva.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/hard_eva.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Radiation: 0.3
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.70
+    sprintModifier: 0.70
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitHardEVA
+
+#Chief Engineer's Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase # Removed BaseCommandContraband
+  id: ClothingOuterHardsuitAcorpEngineer
+  name: chief engineer's hardsuit
+  description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/engineer.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/engineer.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: FireProtection
+    reduction: 0.8
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.4
+        Radiation: 0.05 # Frontier - 0<0.05
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpEngineer
+
+#Luxury Mining Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitAcorpBasic 
+  name: luxury mining hardsuit
+  description: A refurbished mining hardsuit, fashioned after the Quartermaster's colors. Graphene lining provides less protection, but is much easier to move.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Hardsuits/basic.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Hardsuits/basic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.8
+        Radiation: 0.5
+        Caustic: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitAcorpBasic

@@ -64,6 +64,116 @@
 #    reflectProb: 1 # Frontier
 
 - type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallShuttlePlastitanium
+  name: shuttle wall
+  suffix: Plastitanium
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/shuttle_plastic.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/shuttle_plastic.rsi
+
+- type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallShuttleGomer
+  name: shuttle wall
+  suffix: Gomer
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/shuttle_gomer.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/shuttle_gomer.rsi
+
+- type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallPlastitanium
+  name: plastitanium wall
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/plastic.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/plastic.rsi
+
+- type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallPlastitanium2
+  name: plastitanium wall
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/plastic2.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/plastic2.rsi
+
+- type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallPlastitaniumRust
+  name: plastitanium wall
+  suffix: Rust
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/rust.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/rust.rsi
+
+- type: entity
+  parent: RadiantWallShuttleInterior
+  id: RadiantWallPlastitaniumRust2
+  name: plastitanium wall
+  suffix: Rust
+  components:
+  - type: Sprite
+    sprite: _radiant/Structures/Walls/rust2.rsi
+  - type: Icon
+    sprite: _radiant/Structures/Walls/rust2.rsi
+
+#- type: entity
+#  parent: BaseWall
+#  id: RadiantWallShuttlePlastitanium
+#  name: shuttle wall
+#  suffix: Plastitanium
+#  components:
+#  - type: RCDDeconstructable
+#    cost: 6
+#    delay: 8
+#    fx: EffectRCDDeconstruct8
+#  - type: Destructible
+#    thresholds:
+#    - trigger:
+#        !type:DamageTrigger
+#        damage: 400
+#      behaviors:
+#      - !type:DoActsBehavior
+#        acts: ["Destruction"]
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MetalSlam
+#    - trigger:
+#        !type:DamageTrigger
+#        damage: 200
+#      behaviors:
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MetalSlam
+#      - !type:ChangeConstructionNodeBehavior
+#        node: girder
+#      - !type:DoActsBehavior
+#        acts: ["Destruction"]
+#  - type: Sprite
+#    sprite: _radiant/Structures/Walls/shuttle_plastic.rsi
+#  - type: Icon
+#    sprite: _radiant/Structures/Walls/shuttle_plastic.rsi
+#  - type: Construction
+#    graph: Girder
+#    node: shuttleInteriorWall
+#  - type: IconSmooth
+#    key: walls
+#    base: state
+
+#  - type: Reflect # Frontier
+#    reflectProb: 1 # Frontier
+
+- type: entity
   parent: BaseWall
   id: RadiantWallShuttleInterior
   name: shuttle wall
@@ -190,3 +300,45 @@
     cost: 6 #Frontier
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
+
+- type: entity
+  parent: RadiantWallShuttleDiagonal
+  id: RadiantWallShuttleGomerDiagonal
+  name: shuttle wall
+  suffix: diagonal
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _radiant/Structures/Walls/shuttle_gomer_diagonal.rsi
+    state: state0
+  - type: Icon
+    sprite: _radiant/Structures/Walls/shuttle_gomer_diagonal.rsi
+    state: state0
+
+- type: entity
+  parent: RadiantWallShuttleDiagonal
+  id: RadiantWallPlastitanium2Diagonal
+  name: plastitanium wall
+  suffix: diagonal
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _radiant/Structures/Walls/plastic2_diagonal.rsi
+    state: state0
+  - type: Icon
+    sprite: _radiant/Structures/Walls/plastic2_diagonal.rsi
+    state: state0
+
+- type: entity
+  parent: RadiantWallShuttleDiagonal
+  id: RadiantWallPlastitaniumDiagonal
+  name: plastitanium wall
+  suffix: diagonal
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _radiant/Structures/Walls/plastic_diagonal.rsi
+    state: state0
+  - type: Icon
+    sprite: _radiant/Structures/Walls/plastic_diagonal.rsi
+    state: state0

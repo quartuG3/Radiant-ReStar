@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: NudeVendAds
+  values:
+    prefix: advertisement-astrovend-
+    count: 2

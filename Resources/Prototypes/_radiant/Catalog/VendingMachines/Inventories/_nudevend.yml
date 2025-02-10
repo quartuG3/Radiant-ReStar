@@ -1,0 +1,61 @@
+- type: vendingMachineInventory
+  id: NudeVendInventory
+  startingInventory:
+# Boxer
+    ClothingUnderwearBottomBoxersCMO: 4294967295 # Infinite
+    ClothingUnderwearBottomBoxersHOP: 4294967295 # Infinite
+    ClothingUnderwearBottomBoxersHOS: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantBoxersNFSD: 4294967295 # Infinite
+    ClothingUnderwearBottomBoxersQM: 4294967295 # Infinite
+    ClothingUnderwearBottomBoxersRD: 4294967295 # Infinite
+    ClothingUnderwearBottomBoxersCE: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantBoxersBlack: 4294967295 # Infinite
+# Panties
+    ClothingUnderwearBottomPantiesNeko: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesCE: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesLace: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantPantiesRed: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesCMO: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantPantiesPink: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesHOP: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesHOS: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantPantiesNFSD: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesQM: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesRD: 4294967295 # Infinite
+    ClothingUnderwearBottomPantiesCap: 4294967295 # Infinite
+    ClothingUnderwearBottomRadiantPantiesTrusikiblack: 4294967295 # Infinite
+# Top
+    ClothingUnderwearTopBraCMO: 4294967295 # Infinite
+    ClothingUnderwearTopBraHOP: 4294967295 # Infinite
+    ClothingUnderwearTopBraHOS: 4294967295 # Infinite
+    ClothingUnderwearTopBraQM: 4294967295 # Infinite
+    ClothingUnderwearTopBraRD: 4294967295 # Infinite
+    ClothingUnderwearTopBraCE: 4294967295 # Infinite
+    ClothingUnderwearTopRadiantNeeeekoUwU: 4294967295 # Infinite
+    ClothingUnderwearTopBraCap: 4294967295 # Infinite
+    ClothingUnderwearTopRadiantRed: 4294967295 # Infinite
+# Socks
+    ClothingUnderwearSocksHigh: 4294967295 # Infinite
+    ClothingUnderwearSocksPantyhose: 4294967295 # Infinite
+    ClothingUnderwearSocksShort: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantRed: 4294967295 # Infinite
+    ClothingUnderwearSocksNormal: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantBlackPolosatie: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantMeee: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantStriped: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantThighblue: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantSocksBlack: 4294967295 # Infinite
+    ClothingUnderwearSocksRadiantBlack: 4294967295 # Infinite
+    ClothingUnderwearSocksThigh: 4294967295 # Infinite
+    ClothingUnderwearSocksFishnettights: 4294967295 # Infinite
+    ClothingUnderwearSocksGarters: 4294967295 # Infinite
+# Special
+    ClothingUnderwearTopSpaceNinja: 3
+    ClothingUnderwearBottomBoxersSpaceNinja: 3
+    ClothingUnderwearBottomPantiesSpaceNinja: 3
+    ClothingOuterShibari: 5
+    ClothingNeckChokerBlack: 4294967295 # Infinite
+    ClothingNeckChokerBlack2: 4294967295 # Infinite
+    ClothingNeckChokerBlackShaped: 4294967295 # Infinite
+    ClothingNeckChokerHeart: 4294967295 # Infinite
+    ClothingNeckChokerSpike: 4294967295 # Infinite
