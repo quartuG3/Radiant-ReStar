@@ -69,3 +69,86 @@
   components:
   - type: Sprite
     sprite: Clothing/Underwear/Socks/richsocksthigh.rsi
+
+
+# Homka
+
+# siniichyljchki
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantThighblue
+  name: синие чулки
+  description: Стандартные чулки, эти окрашены в синий цвет, которые прекрасно подчеркнут ваши ножки.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/siniichyljchki.rsi
+
+# pink
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantPink
+  name: розовые чулки
+  description: Стандартные чулки, эти окрашены в розовый цвет, подходят для любителей розового цвета. 
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/pinka.rsi
+
+# red
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantRed
+  name: красные чулки
+  description: Стандартные чулки, эти окрашены в красный цвет.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/echecylochki.rsi
+
+# Striped
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantStriped
+  name: полосатые чулки
+  description: Стандартные чулки, эти полосатые. Станут важной деталью в вашем образе эмо.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/chylocki.rsi
+
+# BlackSocks
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantSocksBlack
+  name: черные носки
+  description: Носки чёрного цвета, для любителей классики.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/blacksossss.rsi
+
+# Black
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantBlack
+  name: черные чулки
+  description: Классические чёрные чулки, которые хорошо подчеркивают ваш мужественный образ.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/blackchelochki.rsi
+
+# polosatie
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantBlackPolosatie
+  name: носки в полоску
+  description: Элегантные носочки на любой случай жизни
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/polosatie.rsi
+
+# meee
+- type: entity
+  parent: ClothingUnderwearSocksBase
+  id: ClothingUnderwearSocksRadiantMeee
+  name: носочки в ромбик
+  description: Носочки белого цвета, на которых видны розового оттенка ромбики, они прекрасно подчеркнут вашу мужественность
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Socks/meee.rsi
