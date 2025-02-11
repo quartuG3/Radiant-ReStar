@@ -1,0 +1,47 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAcorp
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Boots/acorp_boots.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Boots/acorp_boots.rsi
+  - type: Matchbox
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAcorpArm
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Boots/acorp_arm_boots.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Boots/acorp_arm_boots.rsi
+  - type: Matchbox
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAcorpWorkBoots
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Boots/workboots.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Boots/workboots.rsi
+  - type: Matchbox
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsAcorpWorkBoots2
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Boots/workbootseng.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Boots/workbootseng.rsi
+  - type: Matchbox

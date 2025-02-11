@@ -1,0 +1,17 @@
+- type: entity
+  parent: [ClothingBackpackSatchel, BaseC2Contraband] # Frontier: BaseRestrictedContraband<BaseC2Contraband
+  id: ClothingBackpackSatchelAcorpSecurity
+  name: сумка секьюрити
+  description: Сумка сотрудника акорп секьюрити, в неё помещается все необходимое, как настоящий представитель секьюрити, не забудьте взять одну или пару бутылок коньяка. 
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Back/Satchels/sec.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelAcorp
+  name: черно-белая сумка
+  description: Чёрно-белая сумка для элегантных сотрудников акорп, в неё вы можете спрятать трусики директора исследований. 
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Back/Satchels/acorp.rsi

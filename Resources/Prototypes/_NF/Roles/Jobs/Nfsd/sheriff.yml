@@ -5,7 +5,7 @@
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 86400 # 24 hours Radiant_Sector
+      time: 144000 # 40 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
       department: Security
       time: 64800 # 18 hours Radiant_Sector
@@ -21,8 +21,8 @@
       time: 360000 # 100 hours Radiant_Sector
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 43200 # 12 hours Radiant_Sector
-  whitelisted: true
+      time: 72000 # 20 hours Radiant_Sector
+  whitelisted: false #Radiant_Sector
   startingGear: SheriffGear
   alwaysUseSpawner: true
   icon: JobIconSheriff

@@ -5,6 +5,8 @@
   components:
   - type: Sprite
     state: icon
+  - type: StaticPrice # Frontier
+    vendPrice: 1000 # Frontier
   - type: Item
     size: Tiny
   - type: Butcherable

@@ -50,6 +50,8 @@
   name: повязка на пах
   description: Кусок обычной ткани. Вроде бы сделано только для девушек.
   components:
+  - type: StaticPrice # Frontier
+    vendPrice: 300 # Frontier
   - type: Sprite
     sprite: Clothing/Underwear/Bottom/SpaceNinja/panties.rsi
   - type: StealTarget
@@ -66,3 +68,55 @@
     sprite: Clothing/Underwear/Bottom/deathpanties.rsi
   - type: StealTarget
     stealGroup: Panties
+
+
+# Homka
+
+# Black
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomRadiantPantiesTrusikiblack
+  name: черные трусики
+  description: Трусики чёрного цвета с подвязками, на которые вы можете закрепить чулки, чтоб те не сползали с вас во время особо важных дел.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Bottom/trusikiblack.rsi
+  - type: StealTarget
+    stealGroup: Panties
+
+# Red
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomRadiantPantiesRed
+  name: красные трусики
+  description: Трусики красного цвета, хорошо сочетаются с лифчиком того же оттенка.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Bottom/red.rsi
+  - type: StealTarget
+    stealGroup: Panties
+
+# Pink
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomRadiantPantiesPink
+  name: розовые трусики
+  description: Стандартное нижнее бельё розового цвета.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Bottom/pink.rsi
+  - type: StealTarget
+    stealGroup: Panties
+
+# NFSD
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomRadiantPantiesNFSD
+  name: трусики ДШ
+  description: На самом деле это просто трусики зеленого цвета. Произведено на Аванпосте ДШ.
+  components:
+  - type: Sprite
+    sprite: Clothing/Underwear/Bottom/NFSDw.rsi
+  - type: StealTarget
+    stealGroup: Panties
+

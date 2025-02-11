@@ -1,0 +1,116 @@
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpSecurity
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/sec_rig.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/sec_rig.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpSalvage
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/salvage.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/salvage.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpRnd
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/rnd.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/rnd.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAvianCommander
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/hostile_avian_commander.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/hostile_avian_commander.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAvian
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/hostile_avian.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/hostile_avian.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpEngineer
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/engineer.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/engineer.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpHeva
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/heva.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/heva.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitHardEVA
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/basic_alt.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/basic_alt.rsi
+
+#Mime Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitBasic
+  id: ClothingHeadHelmetHardsuitAcorpBasic
+  name: mime hardsuit helmet
+  description: A mime hardsuit helmet.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _radiant/Clothing/Head/Hardsuits/basic.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Head/Hardsuits/basic.rsi

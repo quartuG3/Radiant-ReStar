@@ -1,0 +1,87 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSecurityAcorp
+  name: комбинезон акорп секьюрити
+  description: Стандартный комбинезон для подразделения Аколит Корпорейшн - секьюрити.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/sec.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/sec.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitExploratorAcorp
+  name: senior researcher jumpsuit
+  description: A sign of skill and prestige within the science department.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/explorator.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/explorator.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngineeringAcorp
+  name: комбинезон инженера акорп
+  description: Стандартный комбинезон рабочей формы Аколит Корпорейшн.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/engineer.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/engineer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAcorp
+  name: комбинезон акорп
+  description: Стандартный комбинезон формы Аколит Корпорейшн.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/acorp_jumpsuit.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/acorp_jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCaptainAcorp
+  name: комбинезон коменданта
+  description: Стандартный комбинезон с серебристыми вставками подчеркивающие должность коменданта Аколит Корпорейшн.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/acorp_cap_jumpsuit.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/acorp_cap_jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGreenLok
+  name: зеленый свитер
+  description: Свитер зеленого цвета, наверное очень теплый.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/greenlok.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/greenlok.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRedLok
+  name: красный свитер
+  description: Свитер красного цвета, наверное очень теплый.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/red-turtleneck.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/red-turtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitRDAcorp
+  name: свитер ДИ
+  description: Специальный свитер для Директора Исследований Аколит Корпорейшн.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/rnd.rsi
+  - type: Clothing
+    sprite: _radiant/Clothing/Uniforms/Jumpsuit/rnd.rsi

@@ -1,0 +1,41 @@
+- type: entity
+  parent: BaseComputerShuttle
+  id: ComputerShuttleAcorp
+  name: syndicate shuttle console
+  description: Used to pilot a syndicate shuttle.
+  components:
+  - type: SpriteFade
+  - type: Sprite
+    offset: 0,1
+    sprite: _radiant/Structures/Machines/station_terminal.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: base
+    - map: ["computerLayerScreen"]
+      state: unshaded
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel
+  - type: Tag
+    tags:
+      - Syndicate
+  - type: RadarConsole
+    maxRange: 384
+  - type: WorldLoader
+    radius: 1536
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#c94242"
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.5,0.25,1.5,1.5"
+        density: 50
+        mask:
+        - LargeMobMask
+        layer:
+        - WallLayer
+  - type: Computer
+    board: SyndicateShuttleConsoleCircuitboard

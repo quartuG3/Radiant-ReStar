@@ -1,0 +1,16 @@
+- type: entity
+  name: Enforcer
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: BaseRestrictedContraband<BaseC2ContrabandUnredeemable
+  id: WeaponShotgunAdjutant
+  description: A premium combat shotgun based on the Kammerer design, featuring an upgraded clip capacity. .50 shotgun shells. On the receiver is a label that says 'for authorized use only.'
+  components:
+  - type: Sprite
+    sprite: _radiant/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
+  - type: Clothing
+    sprite: _radiant/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
+  - type: Item
+    sprite: _radiant/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
+  - type: BallisticAmmoProvider
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: PirateBountyItem # Frontier
+    id: Enforcer # Frontier

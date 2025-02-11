@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomBoxersAcorp
+  name: боксеры акорп
+  description: Стандартное нижнее белье Nanotrasen для сотрудников станции. Окрашено в белый цвет.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/bottom/acorp.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomBoxersAcorp2
+  name: боксеры акорп
+  description: Стандартное нижнее белье Nanotrasen для сотрудников станции. Окрашено в белый цвет.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/bottom/boxxacorp.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomBoxersAcorpSecuriry
+  name: боксеры акорп секьюрити
+  description: Стандартное нижнее белье Nanotrasen для сотрудников станции. Окрашено в белый цвет.
+  components:
+  - type: Sprite
+    sprite: _radiant/Clothing/Underwear/bottom/secacorp.rsi
