@@ -69,6 +69,13 @@
         {
             "name": "trans-equipped",
             "directions": 4
+        },
+        {
+            "name": "omni"
+        },
+        {
+            "name": "omni-equipped-NECK",
+            "directions": 4
         }
     ]
 }

@@ -3,7 +3,7 @@
   id: Scream
   name: chat-emote-name-scream
   category: Vocal
-  icon: Interface/Emotes/scream.png
+  icon: Interface/Actions/scream.png
   whitelist:
     components:
     - Vocal
@@ -412,6 +412,8 @@
   chatTriggers:
   - deathgasp
   - последний вдох
+  # chatTriggers: # DeltaV - Remove from the emote wheel
+  # - deathgasp
 
 - type: emote
   id: MonkeyDeathgasp

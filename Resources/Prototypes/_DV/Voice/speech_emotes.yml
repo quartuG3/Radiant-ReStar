@@ -1,9 +1,8 @@
 # Harpy
 - type: emote
-  id: Ring
-  name: Звенеть
+  id: HarpyHonk
+  name: delta-chat-emote-name-honk
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -11,7 +10,26 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["звенит."]
+  chatMessages: [хонкает.]
+  chatTriggers:
+    - honk
+    - honks
+    - honking
+    - honked
+    - хонкает #radiant_sector
+
+- type: emote
+  id: HarpyRing
+  name: delta-chat-emote-name-ring
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [звенит.]
   chatTriggers:
     - ring
     - rings
@@ -20,10 +38,9 @@
     - звенит
 
 - type: emote
-  id: Pew
-  name: Бзз
+  id: HarpyPew
+  name: delta-chat-emote-name-pew
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -35,14 +52,14 @@
   chatTriggers:
     - pew
     - pews
-    - pewing # Frontier: consistency, I suppose
-    - pewed # Frontier
+    - pewpew
+    - пиу
+    - пиупиу
 
 - type: emote
-  id: Bang
-  name: Подражать выстрел
+  id: HarpyBang
+  name: delta-chat-emote-name-bang
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -50,7 +67,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["Бах."]
+  chatMessages: ["бах."]
   chatTriggers:
     - bang
     - bangs
@@ -60,10 +77,9 @@
     - бах
 
 - type: emote
-  id: Rev
-  name: Звук бензопилы
+  id: HarpyBeep
+  name: delta-chat-emote-name-beep
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -71,18 +87,37 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["revs."]
+  chatMessages: [бип.]
   chatTriggers:
-    - revs
+    - beep
+    - beeps
+    - beeping
+    - beeped
+    - бип
+    - бипает
+
+- type: emote
+  id: HarpyRev
+  name: delta-chat-emote-name-rev
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [рррв.]
+  chatTriggers:
     - rev
+    - revs
     - revving
     - revved
 
 - type: emote
-  id: Caw
-  name: Caw
+  id: HarpyCaw
+  name: delta-chat-emote-name-caw
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -90,20 +125,19 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["Рррв."]
+  chatMessages: [каркает.]
   chatTriggers:
-    - caws
     - caw
+    - caws
     - cawing
     - cawed
-    - Рррв
+    - каркает
 
 #Vulpkanin
 - type: emote
   id: Bark
-  name: Гавкнуть
+  name: delta-chat-emote-name-bark
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -124,9 +158,8 @@
 
 - type: emote
   id: Snarl
-  name: Рычать
+  name: delta-chat-emote-name-snarl
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -146,9 +179,8 @@
 
 - type: emote
   id: Whine
-  name: Скулить
+  name: delta-chat-emote-name-whine
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -167,9 +199,8 @@
 
 - type: emote
   id: Howl
-  name: Выть
+  name: delta-chat-emote-name-howl
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
@@ -205,7 +236,6 @@
   id: Awoo
   name: Урчать
   category: Vocal
-  icon: Interface/Actions/scream.png
   available: false
   whitelist:
     components:
