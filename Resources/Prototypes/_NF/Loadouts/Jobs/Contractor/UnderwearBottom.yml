@@ -1,9 +1,6 @@
 #T0
 - type: loadout
   id: ContractorClothingUnderwearBottomBoxersWhite
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 0
   equipment:
     underwearb: ClothingUnderwearBottomBoxersWhite
@@ -16,9 +13,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomBoxersCap
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomBoxersCap
@@ -31,9 +25,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomBoxersCMO
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomBoxersCMO
@@ -46,18 +37,12 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomBoxersHOS
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomBoxersHOS
     
 - type: loadout
   id: ContractorClothingUnderwearBottomBoxersQM
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomBoxersQM
@@ -70,9 +55,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesWhite
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 0
   equipment:
     underwearb: ClothingUnderwearBottomPantiesWhite
@@ -85,9 +67,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesNeko
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     underwearb: ClothingUnderwearBottomPantiesNeko
@@ -100,9 +79,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesSpaceNinja
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     underwearb: ClothingUnderwearBottomPantiesSpaceNinja
@@ -121,9 +97,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesCMO
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomPantiesCMO
@@ -136,9 +109,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesHOS
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomPantiesHOS
@@ -151,9 +121,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearBottomPantiesRD
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 200
   equipment:
     underwearb: ClothingUnderwearBottomPantiesRD
