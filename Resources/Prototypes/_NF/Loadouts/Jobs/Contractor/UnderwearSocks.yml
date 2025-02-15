@@ -1,9 +1,6 @@
 #T0
 - type: loadout
   id: ContractorClothingUnderwearSocksHigh
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     socks: ClothingUnderwearSocksHigh
@@ -16,9 +13,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearSocksShort
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     socks: ClothingUnderwearSocksShort
@@ -31,9 +25,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearSocksFishnettights
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     socks: ClothingUnderwearSocksFishnettights
@@ -46,9 +37,6 @@
     
 - type: loadout
   id: ContractorClothingUnderwearSocksGarters
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: PantsCapableNF
   price: 100
   equipment:
     socks: ClothingUnderwearSocksGarters
