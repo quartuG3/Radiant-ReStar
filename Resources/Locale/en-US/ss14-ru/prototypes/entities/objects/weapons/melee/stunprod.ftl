@@ -1,2 +1,2 @@
 ent-Stunprod = stun prod
-    .desc = A stun prod for illegal incapacitation.
+    .desc = A stun prod for questionably legal incapacitation.

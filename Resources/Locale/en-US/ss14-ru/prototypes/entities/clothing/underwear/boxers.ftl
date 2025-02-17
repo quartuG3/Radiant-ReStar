@@ -1,0 +1,10 @@
+ent-ClothingUnderwearBottomBoxersWhite = боксеры
+    .desc = Стандартное нижнее белье Nanotrasen для сотрудников станции. Окрашено в белый цвет.
+ent-ClothingUnderwearBottomBoxersSpaceNinja = повязка на пах
+    .desc = Кусок обычной ткани. Вроде бы сделано только для парней.
+ent-ClothingUnderwearBottomBoxersDeathSquad = боксеры эскадрона смерти
+    .desc = Самые технологичные боксеры в галактике.
+ent-ClothingUnderwearBottomRadiantBoxersNFSD = боксеры ДШ
+    .desc = На самом деле это просто боксеры зеленого цвета. Произведено на Аванпосте ДШ.
+ent-ClothingUnderwearBottomRadiantBoxersBlack = черные боксеры
+    .desc = Стандартные боксеры чёрного цвета.

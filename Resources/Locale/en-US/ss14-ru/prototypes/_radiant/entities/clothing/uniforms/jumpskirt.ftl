@@ -1,0 +1,12 @@
+ent-ClothingUniformJumpskirtSecurityAcorp = юбка-комбинезон акорп секьюрити
+    .desc = Стандартная юбка-комбинезон для подразделения Аколит Корпорейшн - секьюрити.
+ent-ClothingUniformJumpskirtPinkDress = розовое платье
+    .desc = Огромное платье розового цвета.
+ent-ClothingUniformJumpskirtCaptainAcorp = юбка-комбинезон коменданта
+    .desc = Стандартная юбка-комбинезон с серебристыми вставками подчеркивающие должность коменданта Аколит Корпорейшн.
+ent-ClothingUniformJumpskirtBlackDress = черное платье
+    .desc = Огромное платье черного цвета.
+ent-ClothingUniformJumpskirtRDAcorp = свитер ДИ
+    .desc = Специальный свитер с юбкой для Директора Исследований Аколит Корпорейшн.
+ent-ClothingUniformJumpskirtEngineeringAcorp = юбка-комбинезон инженера акорп
+    .desc = Стандартная юбка-комбинезон рабочей формы Аколит Корпорейшн.

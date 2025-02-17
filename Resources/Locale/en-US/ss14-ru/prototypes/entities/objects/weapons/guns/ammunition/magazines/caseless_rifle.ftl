@@ -1,5 +1,5 @@
 ent-BaseMagazineCaselessRifle = magazine (.25 caseless)
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseCartridge.desc }
 ent-BaseMagazineCaselessRifleShort = caseless rifle short magazine (.25 caseless)
     .desc = { ent-BaseMagazineCaselessRifle.desc }
 ent-BaseMagazinePistolCaselessRifle = pistol magazine (.25 caseless)

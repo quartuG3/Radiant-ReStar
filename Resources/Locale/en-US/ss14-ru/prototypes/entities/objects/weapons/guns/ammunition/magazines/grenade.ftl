@@ -1,5 +1,5 @@
 ent-BaseMagazineGrenade = grenade cartridge
-    .desc = { ent-BaseItem.desc }
+    .desc = { ent-BaseCartridge.desc }
 ent-MagazineGrenadeEmpty = grenade cartridge
     .desc = { ent-BaseMagazineGrenade.desc }
 ent-MagazineGrenadeFrag = frag grenade cartridge

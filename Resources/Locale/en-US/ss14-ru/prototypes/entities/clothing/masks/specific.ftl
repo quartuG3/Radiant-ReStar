@@ -7,4 +7,4 @@ ent-ClothingMaskGasVoiceChameleon = { ent-ClothingMaskGasChameleon }
 ent-ClothingMaskWeldingGas = welding gas mask
     .desc = A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
 ent-ClothingMaskGoldenCursed = golden mask
-    .desc = Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
+    .desc = An ancient-looking mask bearing the visage of some simian monarch. You swear it looks cursed.

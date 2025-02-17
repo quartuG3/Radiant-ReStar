@@ -1,0 +1,9 @@
+ent-ThrusterZeta = thruster
+    .suffix = Zeta
+    .desc = { ent-BaseStructureDisableAnchoring.desc }
+ent-ThrusterBigZeta = thruster
+    .suffix = BigZeta
+    .desc = { ent-BaseStructureDisableAnchoring.desc }
+ent-ThrusterRadiant = thruster
+    .suffix = Radiant
+    .desc = { ent-BaseStructureDisableAnchoring.desc }

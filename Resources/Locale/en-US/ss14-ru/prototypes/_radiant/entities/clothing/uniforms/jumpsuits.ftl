@@ -1,0 +1,16 @@
+ent-ClothingUniformJumpsuitSecurityAcorp = комбинезон акорп секьюрити
+    .desc = Стандартный комбинезон для подразделения Аколит Корпорейшн - секьюрити.
+ent-ClothingUniformJumpsuitExploratorAcorp = senior researcher jumpsuit
+    .desc = A sign of skill and prestige within the science department.
+ent-ClothingUniformJumpsuitEngineeringAcorp = комбинезон инженера акорп
+    .desc = Стандартный комбинезон рабочей формы Аколит Корпорейшн.
+ent-ClothingUniformJumpsuitAcorp = комбинезон акорп
+    .desc = Стандартный комбинезон формы Аколит Корпорейшн.
+ent-ClothingUniformJumpsuitCaptainAcorp = комбинезон коменданта
+    .desc = Стандартный комбинезон с серебристыми вставками подчеркивающие должность коменданта Аколит Корпорейшн.
+ent-ClothingUniformJumpsuitGreenLok = зеленый свитер
+    .desc = Свитер зеленого цвета, наверное очень теплый.
+ent-ClothingUniformJumpsuitRedLok = красный свитер
+    .desc = Свитер красного цвета, наверное очень теплый.
+ent-ClothingUniformJumpsuitRDAcorp = свитер ДИ
+    .desc = Специальный свитер для Директора Исследований Аколит Корпорейшн.
